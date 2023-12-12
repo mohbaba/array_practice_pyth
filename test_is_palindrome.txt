@@ -1,0 +1,6 @@
+from is_palidrome import *
+
+def test_is_palindrome():
+	
+	assert is_palindrome('hello') == False
+	assert is_palindrome(1783a) == False
