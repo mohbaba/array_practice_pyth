@@ -1,30 +1,18 @@
 import java.util.Scanner;
 public class Largest{
 
-	public static void main(String[]args){
+	public int largestNumber(int[]numbers){
 
-		Scanner scanner = new Scanner(System.in);
-		int counter = 0;
-		double largest = 0;
+		int largest =  0;
 		
-
-		while(counter < 10){
-			
-			System.out.print("Enter score: ");
-			double userInput = scanner.nextDouble();
-			counter++;
-
-			if(userInput > largest){
-				largest = userInput;
+		for(int index = 0 ; index <= numbers.length -1; index++){
+			 if(numbers[i] > largest){
+				largest = numbers[i];
 			}
-
-			
 		}
-		
-		System.out.printf("The largest number is %.2f",largest);
+		return largest;
 
-
-}
+	}
 
 
 
