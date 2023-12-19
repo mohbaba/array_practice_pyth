@@ -10,7 +10,7 @@ public class ReverseListTest{
 		ReverseList reverseList = new ReverseList();
 	
 		int[] array = {1,2,3,4,5};
-		int[] answer = reverseList.reverseInt(array);
+		int[] answer = reverseList.reverseInt (array);
 		int[] expected = {5,4,3,2,1};
 		assertArrayEquals(expected , answer);
 
