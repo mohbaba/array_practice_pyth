@@ -1,7 +1,7 @@
 public class EvenPositionChecker{
 
 
-	public static int[] intPositionChecker(int[] array){
+	public static int[] positionChecker(int[] array){
 		
 		int count = 0;
 		int[] newArray = new int[array.length / 2];
@@ -16,7 +16,7 @@ public class EvenPositionChecker{
 	}
 
 
-	public static String[] stringPositionChecker(String[] array){
+	public static String[] positionChecker(String[] array){
 		
 		int count = 0;
 		String[] newArray = new String[array.length / 2];
@@ -30,7 +30,7 @@ public class EvenPositionChecker{
 		return newArray;
 	}
 
-	public static Object[] objectPositionChecker(Object[] array){
+	public static Object[] positionChecker(Object[] array){
 	
 		int count = 0;
 		Object[] newArray = new Object[array.length / 2];
